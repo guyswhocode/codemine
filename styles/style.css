@@ -1,0 +1,42 @@
+body{
+  background: #efefef;
+}
+
+.container{
+  width: 500px;
+}
+
+.code{
+  border-radius: 0px !important;
+  box-shadow: 0 4px 8px -8px #444 !important;
+  border: 0px ;
+}
+
+.code:hover {
+  box-shadow: 0 10px 8px -8px #AAA !important;
+}
+
+.code pre{
+  margin: 0px;
+}
+
+header{
+  padding: 50px 0px !important;
+  text-align: center;
+  font-family: 'hack'
+}
+
+header h1{
+  font-weight: normal;
+  font-family: 'hack';
+  font-size: 3em;
+  margin-bottom: 2px;
+}
+
+.gwc-blue{
+  color: #3399dd;
+}
+
+.gwc-green{
+  color: #33bb77;
+}
