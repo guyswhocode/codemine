@@ -1,12 +1,10 @@
 ---
 layout: snippet
 title: Shuffle array elements
+description: Sometimes, you have to spin things up to have fun 
 language: js
 highlight: javascript
 ---
-function random(min, max){
-  return Math.floor(Math.random() * (max-min) + min);
-}
 function shuffle(ordered){
   let shuffled = [];
   for(var i = ordered.length; i>0; i--){
