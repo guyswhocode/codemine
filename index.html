@@ -1,12 +1,16 @@
+---
+
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Code Mine</title>
+  <title>{{ site.title }}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
   <link rel="stylesheet" href="./styles/semantic-ui-masonry-min.css">
-  <link rel="stylesheet" href="./highlight/styles/monokai-sublime.css">
+  <link rel="stylesheet" href="./highlight/styles/github.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
   <script src="./highlight/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
@@ -15,81 +19,10 @@
 <body>
   <header>
     <h1><span class="gwc-green">Code</span> <span class="gwc-blue">Mine</span></h1>
-    <p>Things that help</p>
+    <p>{{ site.tagline }}</p>
   </header>
   <div class="ui container">
-    <div class="ui two wide column stackable masonry grid">
-
-      <div class="column"><div class="ui fluid card code">
-        <pre><code class="shell" style="padding: 10px;">convert -append image1.jpg image2.jpg result.jpg</code></pre>
-        <div class="content">
-          <a class="header">Append images on linux shell</a>
-          <div class="meta">
-            <span class="date">Bash</span>
-          </div>
-          <div class="description">
-            Kristy is an art director living in New York.
-          </div>
-        </div>
-        <div class="extra content">
-          <a>
-            <i class="user icon"></i>
-            22 Friends
-          </a>
-        </div>
-      </div></div>
-
-      <div class="column">
-        <div class="ui fluid card code">
-          <pre><code class="css" style="padding: 10px;">.box{
-  border-radius: 0px !important;
-  box-shadow: 0 4px 8px -8px #444 !important;
-  border: 0px ;
-}</code></pre>
-          <div class="content">
-            <a class="header">Material design shadow</a>
-            <div class="meta">
-              <span class="date">CSS</span>
-            </div>
-            <div class="description">
-              Kristy is an art director living in New York.
-            </div>
-          </div>
-          <div class="extra content">
-            <a>
-              <i class="user icon"></i>
-              22 Friends
-            </a>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="column">
-        <div class="ui fluid card code">
-          <pre><code class="css" style="padding: 10px;">.box{
-  border-radius: 0px !important;
-  box-shadow: 0 4px 8px -8px #444 !important;
-  border: 0px ;
-}</code></pre>
-          <div class="content">
-            <a class="header">Material design shadow</a>
-            <div class="meta">
-              <span class="date">CSS</span>
-            </div>
-            <div class="description">
-              Kristy is an art director living in New York.
-            </div>
-          </div>
-          <div class="extra content">
-            <a>
-              <i class="user icon"></i>
-              22 Friends
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    {% include snippets.html %}
   </div>
 </body>
 </html>
