@@ -1,5 +1,5 @@
 ---
-
+layout: default
 ---
 
 <!DOCTYPE html>
@@ -22,7 +22,9 @@
     <p>{{ site.tagline }}</p>
   </header>
   <div class="ui container">
-    {% include snippets.html %}
+    <div class="ui two wide column stackable masonry grid">
+      {% include snippets.html %}
+    </div>
   </div>
 </body>
 </html>
