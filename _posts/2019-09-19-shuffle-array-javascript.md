@@ -1,7 +1,8 @@
 ---
 layout: snippet
 title: Shuffle array elements
-language: javascript
+language: js
+highlight: javascript
 ---
 function random(min, max){
   return Math.floor(Math.random() * (max-min) + min);
