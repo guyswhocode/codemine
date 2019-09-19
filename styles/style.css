@@ -40,3 +40,25 @@ header h1{
 .gwc-green{
   color: #33bb77;
 }
+
+.code.js .circle.icon{
+  color: #f7df1e !important;
+}
+.code.css .circle.icon{
+  color: #379ad6 !important;
+}
+.code.git .circle.icon{
+  color: #f05033 !important;
+}
+.code.html .circle.icon{
+  color: #f16529 !important;
+}
+.code.bash .circle.icon{
+  color: #293036 !important;
+}
+.code.nodejs .circle.icon{
+  color: #8bc74b !important;
+}
+.code.ts .circle.icon{
+  color: #007acc !important;
+}
