@@ -1,6 +1,12 @@
 ---
-
+layout: default
 ---
 
-{{ page.content | remove: page.excerpt }}
+<div class="snippet-view">
+  {% assign size = page.excerpt | size | minus: 1 %}
+  <pre><code class="{{ post.highlight }}" style="padding: 10px;">{{ page.excerpt | slice: 0, size }}</code></pre>
+  <h1 class="ui heading">{{ page.title }}</h1>
+  <p class="description">{{ page.description }}</p>
+  {{ page.content | remove: page.excerpt }}
+</div>
 
