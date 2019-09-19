@@ -2,29 +2,6 @@
 layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/default.min.css">
-  <link rel="stylesheet" href="./styles/semantic-ui-masonry-min.css">
-  <link rel="stylesheet" href="./highlight/styles/github.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js"></script>
-  <script src="./highlight/highlight.pack.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-  <header>
-    <h1><span class="gwc-green">Code</span> <span class="gwc-blue">Mine</span></h1>
-    <p>{{ site.tagline }}</p>
-  </header>
-  <div class="ui container">
-    <div class="ui two wide column stackable masonry grid">
-      {% include snippets.html %}
-    </div>
-  </div>
-</body>
-</html>
+<div class="ui two wide column stackable masonry grid">
+  {% include snippets.html %}
+</div>
