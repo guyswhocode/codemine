@@ -1,0 +1,24 @@
+<div class="ui two wide column stackable masonry grid">
+  {% for post in site.posts %}
+  <div class="column">
+    <div class="ui fluid card code">
+      <pre><code class="{{ post.language }}" style="padding: 10px;">{{post.excerpt}}</code></pre>
+      <div class="content">
+        <a class="header" href="{{post.url}}">{{ post.title }}</a>
+        <div class="meta">
+          <span class="date">{{ post.language }}</span>
+        </div>
+        <div class="description">
+          {{ post.description }}
+        </div>
+      </div>
+      <div class="extra content">
+        <a>
+          <i class="user icon"></i>
+          22 Friends
+        </a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
