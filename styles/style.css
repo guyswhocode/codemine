@@ -20,6 +20,11 @@ body{
   margin: 0px;
 }
 
+.snippet-view .description{
+  font-size: 1.2em;
+  color: #555;
+}
+
 header{
   padding: 50px 0px !important;
   text-align: center;
