@@ -6,14 +6,17 @@ layout: default
   <div class="ui stackable grid">
     <div class="three wide column">
       
-      <div class="sidebar">        
+      <div class="sidebar">
         <div class="ui vertical fluid menu">
           <a class="active item">
             Snippets
           </a>
+          {% for category in site.categories %}
           <a class="item">
-            Settings
+            {{ category[0] | camelcase }}
           </a>
+          {% endfor %}
+
         </div>
       </div>    
 
