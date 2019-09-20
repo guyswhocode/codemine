@@ -1,6 +1,7 @@
 ---
 layout: snippet
 title: Generate random number
+categories: [JS]
 language: js
 highlight: javascript
 ---

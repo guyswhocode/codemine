@@ -1,7 +1,8 @@
 ---
 layout: snippet
 title: Shuffle array elements
-description: Sometimes, you have to spin things up to have fun 
+description: Sometimes, you have to spin things up to have fun
+categories: [JS]
 language: js
 highlight: javascript
 ---

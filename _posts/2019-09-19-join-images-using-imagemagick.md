@@ -1,6 +1,7 @@
 ---
 layout: snippet
 title: Join images using imagemagic
+categories: [Bash]
 language: bash
 highlight: shell
 ---
