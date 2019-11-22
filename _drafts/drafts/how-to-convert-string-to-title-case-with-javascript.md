@@ -1,0 +1,20 @@
+---
+title: How to convert string to title case with javascript 
+categories: ["programming"] 
+tags: ["JS"]
+---
+     Title case means that the first letter of each word is capitalized. You can convert a string to title case using the below function,
+     ```javascript
+         function toTitleCase(str) {
+             return str.replace(
+                 /\w\S*/g,
+                 function(txt) {
+                     return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+                 }
+             );
+         }
+         toTitleCase("good morning john"); // Good Morning John
+     ```
+
+     **[⬆ Back to Top](#table-of-contents)**
+
