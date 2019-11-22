@@ -1,7 +1,6 @@
 ---
 layout: snippet
 title: Generate random number
-description: Who does'nt like material design shadows
 categories: [CSS]
 language: css
 highlight: css
@@ -11,5 +10,3 @@ highlight: css
   border: 0px;
 }
 <!--more-->
-
-This is not that

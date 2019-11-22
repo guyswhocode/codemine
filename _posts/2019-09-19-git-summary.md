@@ -8,5 +8,3 @@ highlight: shell
 ---
 git log --online
 <!--more-->
-
-This is not that

@@ -1,16 +1,23 @@
 {% for post in site.posts %}
-<div class="column">
-  <div class="ui fluid card code {{ post.language }}">
+<div class="column flat">
+  <div class="ui fluid code card {{ post.language }}">
     {% assign size = post.excerpt | size | minus: 1 %}
-    <pre><code class="{{ post.highlight }}" style="padding: 10px;">{{ post.excerpt | slice: 0, size }}</code></pre>
+    {% assign snip = post.excerpt | slice: 0,size %}
+    {% if snip != "<!-- more -->" %}
+      <pre><code class="{{ post.highlight }}" style="padding: 10px;">{{ snip }}</code></pre>
+    {% endif %}
     <div class="content">
       <a class="header" href="{{ post.url }}">{{ post.title }}</a>
       <div class="meta">
-        <span class="date">{{ post.language }}</span>
+        <span class="date">{{ post.categories }}</span>
       </div>
+      {% assign postcontent = post.content | remove: post.excerpt %}
+      {% if postcontent != '' %}
       <div class="description">
-        {{ post.description }}
+        <pre></pre>
+        {{ postcontent }}
       </div>
+      {% endif %}
     </div>
     <div class="extra content">
       <a>

@@ -16,5 +16,3 @@ function shuffle(ordered){
 }
 
 <!--more-->
-
-This is not that

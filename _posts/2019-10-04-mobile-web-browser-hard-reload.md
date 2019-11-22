@@ -7,4 +7,3 @@ highlight: javascript
 ---
 javascript:location.reload(true)
 <!--more-->
-
