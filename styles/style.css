@@ -28,7 +28,9 @@ header{
   text-align: center;
   font-family: 'hack'
 }
-
+header p{
+  color: white;
+}
 header h1{
   font-weight: normal;
   font-family: 'hack';
