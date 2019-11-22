@@ -97,6 +97,9 @@ header h1{
   box-shadow: 0 10px 8px -8px #222;
   border-radius: 0px;
 }
+.dark .flat .card .header{
+  color: #eee !important;
+}
 .dark .flat .card .description{
   color: #CCC;
 }
