@@ -1,7 +1,7 @@
 ---
 layout: snippet
 title: Can I add getters and setters using defineProperty method 
-categories: ["programming"]
+categories: ["JS"]
 language: 'js'
 tags: ["JS"]
 ---
