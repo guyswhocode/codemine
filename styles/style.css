@@ -1,7 +1,9 @@
 body{
   background: #000;
 }
-
+.snippet-page{
+  color: white;
+}
 .snippet-page .sidebar{
   padding: 0px 20px;
 }
@@ -107,4 +109,10 @@ header h1{
 }
 .dark .flat .card .content a{
   color: #AAA !important;
+}
+.dark .card .content a.header{
+  color: #eee !important;
+}
+.dark .card .content .meta{
+  color: #ddd !important;
 }
