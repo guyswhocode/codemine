@@ -70,7 +70,6 @@ header h1{
   color: #007acc !important;
 }
 
-
 .dark .vertical.menu,
 .dark .menu,
 .dark .card{
@@ -106,6 +105,9 @@ header h1{
 }
 .dark .flat .card .description{
   color: #CCC;
+}
+.dark .flat .card .content{
+  border-top: 1px solid #333;
 }
 .dark .flat .card .content a{
   color: #AAA !important;
