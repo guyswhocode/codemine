@@ -5,6 +5,12 @@ categories: ["JS"]
 language: 'js'
 tags: ["JS"]
 ---
+```javascript
+var counterObj = {counter : 0};
+Object.defineProperty(obj, "increment", {
+    get : () => {this.counter++;}
+});
+```
 <!-- more -->
 
 Yes, You can use `Object.defineProperty()` method to add Getters and Setters. For example, the below counter object uses increment, decrement, add and substract properties,
